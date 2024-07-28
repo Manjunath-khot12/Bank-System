@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create-Account</title>
+</head>
+<body>
+    <form action="call" method="post">
+        Name : <input type="text" name="FullName"><br><br>
+        Mobile-Number : <input type="text" name="number" maxlength="10"><br><br>
+        Adhar_number : <input type="text" name="Adhar" maxlength="12"><br><br>
+        Email_id : <input type="email" name="email"><br><br>
+        Type_of_Account :  <select name="account-type" id="account-type">
+            <option value="zero-account">Zero Account</option>
+            <option value="transaction-account">Transaction Account</option>
+            <option value="business-account">Business Account</option>
+        </select><br><br>
+                          <input type="submit" value="Create-Account">
+       
+    </form>
+</body>
+</html>
